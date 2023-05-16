@@ -1,0 +1,287 @@
+html {
+    box-sizing: border-box;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root{
+  --white:  #FFFFFF;
+ --grey_text: #2C2C2C;
+ --orange_hover: #F07F2E;
+ --forest_footer: #0F3F3C;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white);
+}
+
+.link {
+    text-decoration: none;
+  }
+  
+  .list {
+    list-style: none;
+  }
+
+  .conteiner {
+    width: 1440px;
+  padding: 0 248px;
+   margin: 0 auto;
+  }
+/*header */
+.hed{
+  padding: 16px 0;
+}
+
+.meny{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 16px;
+}
+
+  .head_list{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.6; 
+    letter-spacing: 0.5px;
+  color: var(--orange_hover);
+  }
+
+.nav_menu{
+  display: flex;
+  gap: 40px;
+  padding-right: 16px;
+}
+
+.nav{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+color:var(--grey_text);
+}
+
+.nav:hover,
+.nav:focus{
+color:var(--orange_hover);
+}
+/*                               */
+
+/*                                     sekcia 1     */
+
+.foto_k{
+  border-radius: 16px;
+  display: block;
+}
+
+.greet{
+  background-position: center;
+border-radius: 16px;
+background-repeat:no-repeat;
+background-image: url(/Tutorial/kit/images/clip_path_group.jpg);
+width: 944px;
+height: 480px;
+}
+
+.text_hi{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25px;
+  /* display: flex; */
+  letter-spacing: 1.2px;
+  color: var(--white);
+  padding: 24px 95px 0 24px;
+  margin-bottom: 70px; }
+
+.text_text{
+  font-weight: 400;
+font-size: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.5px;
+color: var(--white);
+padding: 0 24px 24px 24px;
+}
+
+.greets_text{
+  width: 432px;
+  height: 192px;
+  background: var(--forest_footer);
+  border-radius: 16px;
+  
+  position: absolute;
+  margin: 240px 24px 45px 24px; }
+
+
+
+/*                                  */
+
+/*                                           sekcia 2*/
+.text{
+  padding-top: 40px ;
+  margin-bottom: 40px;
+}
+
+.member{
+  border-radius: 16px 16px 0px 0px;
+  display: block;
+  
+}
+
+.foto_f{
+  display: flex;
+  gap: 40px;
+  padding-bottom: 76px;
+
+}
+
+.hov_list:focus,
+.hov_list:hover{
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.list_item{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  color: var(--grey_text);
+ margin: 16px 0 0 16px;
+ margin-bottom: 8px;
+  }
+
+  .list_items{
+    font-weight: 400;
+  letter-spacing: 0.5px;
+  color: var(--grey_text);
+  padding: 0 0 0 16px;
+  }
+
+/*                                       */
+
+/*                                              sekcia3                         */
+.foto_text{
+  margin-bottom: 8px;
+}
+
+.foto_list{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 40px 0 60px 0;
+}
+
+.fot_list:hover,
+.fot_list:focus{
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+border-radius: 16px;
+}
+
+.members{
+  border-radius: 16px;
+  display: block;
+}
+/*                                  */
+
+/*                                              footer                     */
+.conteiner_foter{
+  width: 1440px;
+  padding: 48px 248px;
+   margin: 0 auto;
+}
+
+.footer_list{
+    background-color: var(--forest_footer);
+}
+
+.group{
+  margin-bottom: 9px;
+}
+
+.footer_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+color: var(--white);
+}
+
+.foter{
+  display: flex;
+  justify-content: space-between;
+}
+   
+.foot_text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: var(--white);
+}
+
+.social_list {
+  display: flex;
+  gap: 35px;
+}
+
+.social_item{
+fill:var(--orange_hover);
+}
+
+.ikon_soc{
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  background-color:var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ikon_soc:hover,
+.ikon_soc:focus{
+background-color:cornflowerblue;
+
+}
+.social_item:hover,
+.social_item:focus{
+fill: var(--white);
+}
+
+.foot_soc{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
